@@ -14,6 +14,10 @@ body {
   background-color: var(--light-color);
 }
 
+img {
+  display: block;
+}
+
 /*LOGO*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -23,6 +27,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-button-blue-color);
+  margin-right: 76px;
+
 }
 
 .logo-studio-dark {
@@ -30,7 +36,21 @@ body {
 }
 
 .logo-studio-white {
-  color:var(--nu-color);
+  color: var(--nu-color);
+  gap: 40px;
+}
+
+.navigation-list {
+  .display: flex;
+}
+
+.navigation-link {
+  padding: 24px 0;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
 }
 
 .link {
@@ -91,6 +111,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
+
 }
 
 
@@ -103,9 +124,38 @@ body {
   color: var(--focus-hover-color);
 }
 
+/* header-section */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.section-content {}
+
+.container {}
+
+
+
 /*Title Section*/
 .section {
   background-color: var(--hero-color-navy);
+  padding: 188px 0;
+
+}
+
+.header-content {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+
 }
 
 .section-title {
@@ -114,6 +164,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--light-color);
+  max-width: 496px;
 }
 
 .order-button {
@@ -125,6 +176,12 @@ body {
   letter-spacing: 0.04em;
   color: var(--light-color);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--logo-button-blue-color);
+  border-radius: 4px;
 }
 
 .order-button:hover {
@@ -136,12 +193,42 @@ body {
 }
 
 /*Description section*/
-.section-description-title {
+
+.section-description {
+  padding: 120px 0;
+}
+
+.section-description-content {}
+
+.description-list {
+  display: flex;
+  gap: 24px;
+}
+
+.description-content {
+  width: calc((100% - 72px) / 4)
+}
+
+
+/* .section-description-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--light-color);
+} */
+
+.not-visible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
@@ -151,6 +238,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
+  margin-bottom: 8px;
 }
 
 .section-description-pharagraph {
@@ -163,6 +251,13 @@ body {
 
 
 /*What we do section*/
+
+.what-we-do-section {
+  padding-bottom: 120px;
+}
+
+.what-we-do-content {}
+
 .section-we-do-title {
   font-size: 36px;
   line-height: 1.11;
@@ -170,8 +265,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--hero-color-navy);
+  margin-bottom: 72px;
 }
 
+.section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.list-element {
+  width: calc((100% - 48px) / 3);
+}
 
 /*Our Team section*/
 .our-team-title {
@@ -181,10 +285,18 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--hero-color-navy);
+  margin-bottom: 72px;
 }
 
 .our-team-section {
-  background-color: var(--nu-color)
+  background-color: var(--nu-color);
+  padding: 120px 0;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+
 }
 
 .out-team-subtitle {
@@ -196,6 +308,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.4px;
   background-color: var(--light-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team-pharagraph {
@@ -203,30 +317,45 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--content-color);
+  text-align: center;
+
 }
 
 .list-content {
   background-color: var(--light-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px 4px;
+}
+
+.out-team-member {
+  padding: 32px 0;
 }
 
 .list-title {
   background-color: var(--light-color);
 }
 
+/* footer section */
+.footer-content {}
 
-
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .footer-section {
   background-color: var(--hero-color-navy);
   font-weight: 800px;
   font-size: 18px;
   line-height: 1.17px;
+  padding: 100px 0;
 }
 
 .footer-paragraf {
   color: var(--nu-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .content-section-title {

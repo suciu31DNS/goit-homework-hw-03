@@ -40,23 +40,31 @@ img {
   gap: 40px;
 }
 
-.navigation-list {
+/* .navigation-list {
   .display: flex;
-}
+
+} */
 
 .navigation-link {
+  display: flex;
   padding: 24px 0;
 
 }
 
 .address-list {
   display: flex;
+  gap: 40px;
 }
 
 .link {
   text-decoration: none;
   list-style: none;
 }
+
+/* .menu-style {
+  display: flex;
+  gap: 40px;
+} */
 
 .buton {
   cursor: pointer;

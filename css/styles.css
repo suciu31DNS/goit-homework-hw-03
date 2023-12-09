@@ -46,7 +46,7 @@ img {
 
 .navigation-link {
   padding: 24px 0;
-  gap: 40px;
+
 }
 
 .address-list {
@@ -131,9 +131,6 @@ img {
 
 .section-content {}
 
-.container {}
-
-
 
 /*Title Section*/
 .section {
@@ -155,6 +152,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
 
 }
 
@@ -324,7 +322,7 @@ img {
 .list-content {
   background-color: var(--light-color);
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px 4px;
+  border-top-left-radius: 0px;
 }
 
 .out-team-member {

@@ -46,7 +46,7 @@ img {
 }
 
 /* .navigation-link {
-padding: 24px 0;
+  padding: 24px 0;
 } */
 
 .address-list {
@@ -58,7 +58,6 @@ padding: 24px 0;
 .link {
   text-decoration: none;
   list-style: none;
-  padding: 24px 0;
 }
 
 .buton {
@@ -120,7 +119,7 @@ padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
-  padding: 0;
+  padding: 24px 0;
   /* margin: 0; */
 
 }

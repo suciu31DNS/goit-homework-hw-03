@@ -40,31 +40,25 @@ img {
   gap: 40px;
 }
 
-/* .navigation-list {
-  .display: flex;
-
-} */
+.navigation-list {
+  display: flex;
+  gap: 40px
+}
 
 .navigation-link {
-  display: flex;
-  padding: 24px 0;
-
+  padding: 24px 0%;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .link {
   text-decoration: none;
   list-style: none;
 }
-
-/* .menu-style {
-  display: flex;
-  gap: 40px;
-} */
 
 .buton {
   cursor: pointer;
@@ -75,20 +69,26 @@ img {
   letter-spacing: 0.04em;
   color: var(--logo-button-blue-color);
   background-color: var(--nu-color);
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .buton:hover {
   color: var(--light-color);
   background-color: var(--focus-hover-color);
+  border: 1px solid transparent;
 }
 
 .buton:focus {
   color: var(--light-color);
   background-color: var(--focus-hover-color);
+  border: 1px solid transparent;
 }
 
 .adress-section {
   font-style: normal;
+  display: flex;
 }
 
 .contacts {
@@ -160,8 +160,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
-
 }
 
 .section-title {
@@ -280,7 +278,8 @@ img {
 }
 
 .list-element {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
+  min-width: 264px;
 }
 
 /*Our Team section*/
@@ -342,6 +341,15 @@ img {
 }
 
 /* footer section */
+
+.footer-section {
+  background-color: var(--hero-color-navy);
+  font-weight: 800px;
+  font-size: 18px;
+  line-height: 1.17px;
+  padding: 100px 0
+}
+
 .footer-content {}
 
 .footer-link {
@@ -349,7 +357,7 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-section {
+.footehiddenr-section {
   background-color: var(--hero-color-navy);
   font-weight: 800px;
   font-size: 18px;
@@ -363,6 +371,37 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.nav-section-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.content-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px
+}
+
+.content-section-list-element {
+  width: calc((100% - 48px) / 3)
+}
+
+.content-section-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 
 .content-section-title {
   font-size: 20px;

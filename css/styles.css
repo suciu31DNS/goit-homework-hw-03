@@ -45,9 +45,6 @@ img {
   gap: 40px
 }
 
-/* .navigation-link {
-  padding: 24px 0;
-} */
 
 .address-list {
   display: flex;
@@ -120,8 +117,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
   padding: 24px 0;
-  /* margin: 0; */
-
 }
 
 
@@ -172,6 +167,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--light-color);
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .order-button {
@@ -189,6 +185,7 @@ img {
   border: none;
   background-color: var(--logo-button-blue-color);
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .order-button:hover {
@@ -216,14 +213,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-
-/* .section-description-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--light-color);
-} */
 
 .not-visible {
   position: absolute;
